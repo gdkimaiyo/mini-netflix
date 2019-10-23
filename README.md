@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Set up the project on your PC
 
-- run **`git clone https://github.com/OwenKelvin/mini-netflix.git`** to clone the repository
+- run **`git clone https://github.com/gdkimaiyo/mini-netflix.git`** to clone the repository
 - **`cd`** into the project files and run **`npm install`**
 
 ## Development server
