@@ -1,0 +1,22 @@
+<div class="content">
+  <div class="columns" *ngFor="let allmovie of allmovies; index as allmovieId">
+    <a [routerLink]="['/allmovies', allmovieId]">
+      <img *ngIf="allmovie.imgSrc"
+        [src]="allmovie.imgSrc"
+        [height]="250"
+        [width]="200"
+      />
+    </a>
+    <h3 class="movie-title">
+      <a [title]="allmovie.name + ' details'" [routerLink]="['/allmovies', allmovieId]">
+        {{ allmovie.name }}
+        - {{ allmovie.year }}
+      </a>
+    </h3>
+
+    <p *ngIf="allmovie.description">
+      <!-- {{ allmovie.description }} -->
+    </p>
+    <hr>
+  </div>
+</div>
