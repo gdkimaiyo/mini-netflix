@@ -43,6 +43,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - Enable search button to function
 - Enable user authentication. Login and Sign Up
+- Use API keys to dynamically display movies 
 - Display Actors and Awards
 - Prevent adding a movie to favorites twice
 - Route favorites movie to show more details
