@@ -50,3 +50,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - Enable Session storage for favorites movies. Persisting favorites movies.
 - General styling
 - General refactoring
+
+## License
+
+[MIT](https://github.com/gdkimaiyo/mini-netflix/blob/master/LICENSE.md)
