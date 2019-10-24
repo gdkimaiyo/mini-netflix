@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Set up the project on your PC
 
-- run **`git clone https://github.com/OwenKelvin/mini-netflix.git`** to clone the repository
+- run **`git clone https://github.com/gdkimaiyo/mini-netflix.git`** to clone the repository
 - **`cd`** into the project files and run **`npm install`**
 
 ## Development server
@@ -42,11 +42,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### Yet to do
 
 - Enable search button to function
-- Enable user authentication. Login and Sign Up
+- Enable user authentication. Login and Sign Up. Using express js
+- Use API keys instead to dynamically display movies 
 - Display Actors and Awards
 - Prevent adding a movie to favorites twice
 - Route favorites movie to show more details
 - Enable Session storage for favorites movies. Persisting favorites movies.
-- Add a footer
 - General styling
 - General refactoring
+

@@ -51,7 +51,7 @@ export const allmovies = [
     name: 'Terminator',
     year: 2019,
     imgSrc: 'https://image.tmdb.org/t/p/w600_and_h900_bestv2/vqzNJRH4YyquRiWxCCOH0aXggHI.jpg',
-    description: 'More than two decades have passed since Sarah Connor prevented Judgment Day, changed the future, and re-wrote the fate of the human race. Dani Ramos (Natalia Reyes) is living a simple life in Mexico City with her brother (Diego Boneta) and father when a highly advanced and deadly new Terminator – a Rev-9 (Gabriel Luna) – travels back through time to hunt and kill her. Dani survival depends on her joining forces with two warriors: Grace (Mackenzie Davis), an enhanced super-soldier from the future, and a battle-hardened Sarah Connor (Linda Hamilton). As the Rev-9 ruthlessly destroys everything and everyone in its path on the hunt for Dani, the three are led to a T-800 (Arnold Schwarzenegger) from Sarah’s past that may be their last best hope',
+    description: 'More than two decades have passed since Sarah Connor prevented Judgment Day, changed the future, and re-wrote the fate of the human race. Dani Ramos (Natalia Reyes) is living a simple life in Mexico City with her brother (Diego Boneta) and father when a highly advanced and deadly new Terminator – a Rev-9 (Gabriel Luna) – travels back through time to hunt and kill her.',
     director: 'Tim Miller',
     writer: 'Tim Miller',
     rating: 9.0,
