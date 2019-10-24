@@ -1,0 +1,54 @@
+<div class="content-movie">
+  <div *ngIf="allmovie">
+    <img class="movie-img" [src]="allmovie.imgSrc" [height]="400" [width]="300"/>
+    <h3>
+      {{ allmovie.name }}
+      - {{ allmovie.year }}
+    </h3>
+    <div class="">
+      <div class="">
+        <p>
+          <span class="bold-me">Genre: </span>
+          <span>{{ allmovie.genre }} &nbsp;&nbsp;</span>
+          <span class="bold-me">Rated: </span>
+          <span>{{ allmovie.rating }} &nbsp;&nbsp;</span>
+          <span class="bold-me">Released: </span>
+          <span>{{ allmovie.released }} </span>
+        </p>
+      </div>
+
+      <div class="">
+        <p class="bold-me">Plot</p>
+        <p>{{ allmovie.description}}</p>
+      </div>
+
+      <div class="">
+        <p>
+          <span class="bold-me">Runtime: </span>
+          <span>{{ allmovie.runtime }} &nbsp;&nbsp;</span>
+          <span class="bold-me">Country: </span>
+          <span>{{ allmovie.country }} &nbsp;&nbsp;</span>
+          <span class="bold-me">Language: </span>
+          <span>{{ allmovie.language }} </span>
+        </p>
+      </div>
+
+      <div class="">
+        <p>
+          <span class="bold-me">Director: </span>
+          <span>{{ allmovie.director }} &nbsp;&nbsp;</span>
+          <span class="bold-me">Writer: </span>
+          <span>{{ allmovie.writer }} &nbsp;&nbsp;</span>
+        </p>
+      </div>
+      
+    </div>
+
+    <button (click)="addToFavourites(allmovie)">
+      <i class="material-icons">
+        favorite
+      </i>
+       Add to favourites
+    </button>
+  </div>
+</div>

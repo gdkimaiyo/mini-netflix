@@ -1,0 +1,218 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  /* background: linear-gradient(-90deg, #84CF6A, #16C0B0); */
+  background-color: #1fc8db;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  padding: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.top-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-btn {
+  padding: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius: 8px;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #205081;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav-center .openbtn {
+  visibility: hidden;
+}
+
+/* The sidebar menu */
+.sidebar {
+ height: 100%; /* 100% Full-height */
+ width: 0; /* 0 width - change this with JavaScript */
+ position: fixed; /* Stay in place */
+ z-index: 1; /* Stay on top */
+ top: 0;
+ left: 0;
+ background-color: #2F4F4F; /* greyish #2F4F4F*/
+ overflow-x: hidden; /* Disable horizontal scroll */
+ padding-top: 60px; /* Place content 60px from the top */
+ transition: 0.2s; /* 0.5 second transition effect to slide in the sidebar */
+}
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  transition: 0.1s;
+}
+/* When you mouse over the navigation links, change their color */
+.sidebar .side-menu:hover {
+  color: #fff;
+  background-color: #235990;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 36px;
+}
+
+.global-nav {
+	font-size: 16px;
+	list-style-type: none;
+	background-color: #205081;
+	border-bottom: 3px solid #235990;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.global-nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.global-nav li {
+	display: inline-block;
+}
+.nav-link a {
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+.nav-link:hover {
+	background-color: #235990;
+	color: #fff;
+}
+
+/* Button */
+button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.8;
+  font-weight: normal;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.favourite-item {
+  width: 100%;
+  min-width: 400px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 32px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+  background-color: #EEEEEE;
+}
+
+.content, .content-movie {
+  padding: 16px;
+}
+.content {
+  text-align: center;
+}
+
+.content-movie {
+  max-width: 800px;
+  margin: auto;
+}
+
+.movie-title a {
+  color: #000;
+  text-decoration: none;
+}
+
+.columns {
+  width: 16%;
+  float: left;
+}
+
+.movie-img {
+  float: left;
+  padding: 0 16px;
+}
+
+.bold-me {
+  font-weight: bold;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar a {font-size: 16px;}
+}
+
+@media screen and (max-width:800px) {
+  #navbar,
+  .columns,
+  .favourite-item,
+  .search-btn {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .content-movie {
+    text-align: center;
+  }
+  .global-nav .menu {
+  	display: none;
+  }
+  .nav-center .openbtn {
+    visibility: visible;
+  }
+
+  .nav-link a {}
+
+  .content {
+    padding: 16px;
+  }
+
+  .movie-img {
+    float: left;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,37 @@
+<div class="top-container">
+  <a [routerLink]="['/']">
+    <h1>Mini-Netflix</h1>
+  </a>
+  <h3>Streaming experience like never before!</h3>
+
+  <input class="search-btn" id="filter" type="text" name="search"
+    autocomplete="off" placeholder="Search movies..."
+  >
+
+</div>
+
+<div id="navbar" class="navbar">
+  <div class="global-nav">
+    <ul class="nav-center">
+      <li class="logo nav-link openbtn"><a onclick="openNav()">&#9776;</a></li>
+      <li class="logo nav-link nav-left"><a [routerLink]="['/']">Mini-Netflix</a></li>
+  		<li class="menu nav-link">
+        <a id="home-nav" [routerLink]="['/movies']">All</a>
+      </li>
+  		<li class="menu nav-link">
+        <a [routerLink]="['/favourites']">My Favourites</a>
+      </li>
+  	</ul>
+  </div>
+</div>
+<div id="mysidebar" class="col-md sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" style="text-decoration: none;">&times;</a>
+  <a class="side-menu" [routerLink]="['/movies']">All</a>
+  <a class="side-menu" [routerLink]="['/favourites']">My Favourites</a>
+</div>
+
+<!--
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
