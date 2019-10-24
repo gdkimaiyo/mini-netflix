@@ -2,7 +2,7 @@
 
 This is a mini-netflix web application created with Angular.
 
-Find front end preview here [https://mini-netflix-gdkimaiyo.netlify.com](https://mini-netflix-gdkimaiyo.netlify.com)
+Find front end preview here [https://mini-netflix-gd-kimaiyo.netlify.com](https://mini-netflix-gd-kimaiyo.netlify.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12
 
