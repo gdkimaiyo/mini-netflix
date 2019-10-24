@@ -149,6 +149,10 @@ button:disabled {
   text-align: center;
 }
 
+.columns:last-child {
+  padding-bottom: 100px;
+}
+
 .content-movie {
   max-width: 800px;
   margin: auto;

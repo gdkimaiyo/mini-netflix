@@ -2,7 +2,7 @@
 
 This is a mini-netflix web application created with Angular.
 
-Find front end preview here [https://mini-netflix-gd-kimaiyo.netlify.com](https://mini-netflix-gd-kimaiyo.netlify.com)
+Find front end preview here [https://mini-netflix-gdkimaiyo.netlify.com](https://mini-netflix-gdkimaiyo.netlify.com)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12
 
@@ -43,11 +43,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 - Enable search button to function
 - Enable user authentication. Login and Sign Up. Using express js
-- Use API keys instead to dynamically display movies 
+- Use API keys instead to dynamically display movies
 - Display Actors and Awards
 - Prevent adding a movie to favorites twice
 - Route favorites movie to show more details
 - Enable Session storage for favorites movies. Persisting favorites movies.
 - General styling
 - General refactoring
-
